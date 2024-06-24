@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Weather Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+        <h1>Weather Dashboard</h1>
+        <input type="text" id="location" placeholder="Enter location">
+        <button onclick="getWeather()">Get Weather</button> 
+        <div id="current-weather" class="weather-section">
+            <h2>Current Weather</h2>
+            <div id="current-weather-data"></div>
+        </div>        
+        <div id="forecast" class="weather-section">
+            <h2>7-Day Forecast</h2>
+            <div id="forecast-data"></div>
+        </div>
+</body>
+</html>

@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: http://localhost:8080#09eb41;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+}
+
+input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;0;
+    background: #101011;
+    color: rgb(14, 155, 49);
+    border: none;
+   
+}
+
+button:hover {
+    background: #e8753c;
+}
+
+.weather-section {
+    margin-top: 100;
+}
+
+.weather-section h2 {
+    margin-bottom: 100;
+}
+
+.weather-section div {
+    margin-bottom: 100;
+}
